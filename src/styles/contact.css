@@ -1,0 +1,155 @@
+.contactContainer{
+    color: #fff;
+    text-align: center;
+    height: 79.3vh;
+}
+.contact{
+    color: #fff;
+    text-align: center;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contactLeftSide{
+    padding: 10px 25px;
+    width: 50%;
+    height: auto;
+    border: 2px solid #fff;
+    margin-left: 10px;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #000000;
+
+}
+
+.contactLeftSide form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+
+
+
+.contactLeftSide form input{
+    color: #fff;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid hsl(0, 31%, 89%);
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.contactLeftSide form textarea{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 5px;
+    border: 2px solid #fff ;
+
+}
+
+.contactLeftSide form button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #cdb519;
+    cursor: pointer;
+}
+
+.contactLeftSide form button:hover{
+    background-color: #81762d;
+}
+
+.contactRightSide{
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-align: start;
+    margin-left: 40px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.contactRightSide h2{
+    margin-bottom: 30px;
+}
+
+.contactRightSide button{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #cdb519;
+    border: none;
+    cursor: pointer;
+}
+
+.contactRightSide button:hover{
+    background-color: #81762d;
+}
+
+
+@media only screen and (max-width: 900px){
+    .contactContainer{
+        padding: 30px;
+        height: 100%;
+    }
+    .contact{
+        display: block;
+    }
+
+    .contactLeftSide{
+        width: 100%;
+        background-color: #fff;
+        font-size: larger;
+        font-weight: bold
+    }
+
+    .contactLeftSide form{
+        color: #000;
+    }
+
+    .contactLeftSide form label{
+        font-size: larger;
+    }
+
+    .contactLeftSide form input{
+        color: #000;
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid hsl(0, 0%, 0%);
+        margin-top: 5px;
+        font-size: larger;
+    }
+
+    .contactLeftSide form textarea{
+        width: 100%;
+        border-color: #000;
+        font-size: larger;
+        color: #000;
+    }
+
+    .contactRightSide{
+        width: 100%;
+        padding: 10px 25px;
+        height: auto;
+        border: 2px solid #fff;
+        margin-left: 10px;
+        border-radius: 20px;
+        margin-top: 0;
+        background-color: #fff;
+    }
+}

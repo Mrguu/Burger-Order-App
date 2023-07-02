@@ -1,0 +1,16 @@
+.menuTagContainer{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menuTagContainer h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 400px){
+    .menuTagContainer{
+        height: 100vh;
+    }
+}

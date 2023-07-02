@@ -1,0 +1,143 @@
+.NavContainer{
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    position: sticky;
+    user-select: none;
+}
+
+.NavRightSide{
+    width: 600px;
+    margin-top: 8px;
+    display: flex;
+    position: relative;
+}
+
+.Logo{
+    text-shadow: -5px 5px 3px rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.NavLeftSide{
+    width: auto;
+    display: flex;
+}
+  
+.NavLeftSide a{
+ 
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+    width: 90px;
+    height: auto;
+    background-color: #302c2c;
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.NavLeftSide button{
+    display: none;
+    width: 50px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+
+.NavLeftSide a:hover{
+    box-shadow: inset -5px 5px 4px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 650px){
+    .NavLeftSide a{
+        display: none;
+    }
+
+    .NavLeftSide button{
+        display: inline-block;
+    }
+
+    .Logo{
+        display: none;
+    }
+}
+
+
+.NavContainer #close .hiddenLinks{
+    opacity: 0;
+    top: -200px;
+    transform: translateY(-20px);
+    transition: 0.5s all ease;
+    position: absolute;
+}
+
+.NavContainer #open .hiddenLinks{
+    opacity: 1;
+    transform: translateY(0px);
+    transition: 0.5s all ease;
+    position: absolute;
+}
+
+
+.NavContainer .hiddenLinks a{
+    display: flex;
+    text-decoration: none;
+    height: auto;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 1px;
+    border-bottom: 1px solid rgb(34, 31, 31);
+    background-color: #292525;
+    color: #fff;
+}
+
+.NavContainer .hiddenLinks{
+    top: -20px;
+    width: 100%;
+    margin-top:20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.NavContainer .hiddenLinks .home{
+    border-radius: 10px;
+}
+
+.NavContainer .hiddenLinks .menu{
+    border-radius: 10px;
+}
+
+.NavContainer .hiddenLinks .about{
+    border-radius: 10px;
+}
+
+.NavContainer .hiddenLinks .contact{
+    border-radius: 10px;
+}
+
+.NavContainer .hiddenLinks:hover{
+    background-color: #fff;
+    color: #000000;
+}
+
+@media only screen and (min-width: 650px){
+    .NavContainer .hiddenLinks{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .NavContainer .hiddenLinks{
+        font-size: 0px;
+    }
+}
+
+

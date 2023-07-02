@@ -1,0 +1,44 @@
+.homeTagContainer{
+    height: 91.9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -78px;
+    margin-left: 100px;
+    user-select: none;
+}
+
+.homeTag{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.homeTag button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.homeTag button:hover{
+    background-color: rgb(200, 206, 22);
+}
+
+@media only screen and (max-width: 900px){
+    .homeTagContainer{
+        height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .homeTagContainer {
+       margin-left: 10px;
+    }
+}
+
+
