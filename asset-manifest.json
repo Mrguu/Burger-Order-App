@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Burger-Order-App/static/css/main.c0d802bb.css",
-    "main.js": "/Burger-Order-App/static/js/main.2a70bc74.js",
+    "main.css": "/Burger-Order-App/static/css/main.93a9c18e.css",
+    "main.js": "/Burger-Order-App/static/js/main.2137befb.js",
     "static/js/787.47b2b436.chunk.js": "/Burger-Order-App/static/js/787.47b2b436.chunk.js",
     "static/media/burgerbg.jpg": "/Burger-Order-App/static/media/burgerbg.8dceec11d22265ce2cf8.jpg",
     "index.html": "/Burger-Order-App/index.html",
-    "main.c0d802bb.css.map": "/Burger-Order-App/static/css/main.c0d802bb.css.map",
-    "main.2a70bc74.js.map": "/Burger-Order-App/static/js/main.2a70bc74.js.map",
+    "main.93a9c18e.css.map": "/Burger-Order-App/static/css/main.93a9c18e.css.map",
+    "main.2137befb.js.map": "/Burger-Order-App/static/js/main.2137befb.js.map",
     "787.47b2b436.chunk.js.map": "/Burger-Order-App/static/js/787.47b2b436.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0d802bb.css",
-    "static/js/main.2a70bc74.js"
+    "static/css/main.93a9c18e.css",
+    "static/js/main.2137befb.js"
   ]
 }
